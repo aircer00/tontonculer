@@ -1,0 +1,21 @@
+{
+  "name": "tonton-culer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+    },
+
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/tontonculer.git"
+  },
+  "author": "XIV & Akira",
+  "license": "ISC"
+}
