@@ -7,7 +7,7 @@ client.on('ready',()=>{
 
 client.on('message', function (message) {
     if (message.content === '!culer')
-      message.channel.send('Oui, je vais te culer.')
+      message.channel.send('Oui, je suis la')
     });
 
 client.on ('guildMemberAdd', function (member) {
@@ -33,6 +33,6 @@ client.on('message', message => {
         console.log(`La commande "!tamère" a été utilisé`)
     }
 })
-
+var port = process.env.PORT || 5000;
 
 client.login(process.env.TOKEN)
