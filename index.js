@@ -33,6 +33,5 @@ client.on('message', message => {
         console.log(`La commande "!tamère" a été utilisé`)
     }
 })
-var port = process.env.PORT || 5000;
 
 client.login(process.env.TOKEN)
